@@ -8,8 +8,8 @@ To Install:
   a dojox directory containing the dojox checkout/src al inside of this directory.
 
 	cd narwhal/packages/dojo/lib
-	svn co http://svn.dojotoolkit.org/svn/dojo/trunk dojo
-	svn co http://svn.dojotoolkit.org/svn/dojox/trunk dojox
+	svn co http://svn.dojotoolkit.org/src/dojo/trunk dojo
+	svn co http://svn.dojotoolkit.org/src/dojox/trunk dojox
 
 
 To Use:
@@ -17,8 +17,7 @@ To Use:
 // load dojo base
 js> require('dojo');
 
-// then just use dojo like normal.  For example, fort DTL:
-js> dojo.require("dojox.dtl");
+// then just use dojo like normal.  For example, for DTL:
 js> dojo.require('dojox.dtl');
 [object Object]
 js> var t = new dojox.dtl.Template("{{test||upper}}");
