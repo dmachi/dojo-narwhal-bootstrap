@@ -1,0 +1,15 @@
+{
+   "name": "dojo",
+   "version": "1.4",
+   "description": "Loader for Dojo"
+   'author': "Dustin Machi"
+   "keywords": ["dojo", "dojox", "dtl", "template", "django"],
+   "maintainers": [
+       {
+           "name": "Dustin Machi",
+           "email": "dmachi@dojotoolkit.org",
+           "web": "http://www.dojotoolkit.org" 
+       } 
+   ]
+}
+
